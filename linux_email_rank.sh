@@ -28,7 +28,7 @@ do
 done
 
 echo "Result:"
-cat $email_rank | sort -k2 -n -r | head -n 10
+cat $email_rank | sort -k2 -n -r | head -n 20
 
 rm $all_emails
 rm $email_domains
